@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Ahmed Adel - Full-Stack Web and Embedded Systems Developer</title>
+<desc id="desc">A custom dark technical blueprint banner combining web code, circuit traces and a microcontroller motif.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071827"/><stop offset="1" stop-color="#102c43"/></linearGradient>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+ <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#7dd3fc" stroke-opacity=".075" stroke-width="1"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="300" rx="24" fill="url(#bg)"/><rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+<g opacity=".55" fill="none" stroke="#22d3ee" stroke-width="2">
+ <path d="M760 40H900V80H1020M800 260H900V220H1080M1080 60V110H1160M760 190H840V145H940"/>
+ <path d="M885 35V15H1040M1030 280V248H1140" stroke="#f59e0b"/>
+ <circle cx="900" cy="80" r="5" fill="#22d3ee"/><circle cx="900" cy="220" r="5" fill="#22d3ee"/><circle cx="840" cy="145" r="5" fill="#f59e0b"/>
+</g>
+<g transform="translate(900 68)" filter="url(#glow)">
+ <rect x="0" y="0" width="180" height="164" rx="18" fill="#0b2133" stroke="url(#line)" stroke-width="3"/>
+ <rect x="31" y="28" width="118" height="106" rx="10" fill="#102e42" stroke="#22d3ee" stroke-opacity=".8"/>
+ <path d="M45 59H135M45 79H112M45 99H124" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" opacity=".85"/>
+ <g stroke="#22d3ee" stroke-width="3"><path d="M-14 22H0M-14 48H0M-14 74H0M-14 100H0M-14 126H0M180 22H194M180 48H194M180 74H194M180 100H194M180 126H194"/></g>
+ <text x="90" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#c9f5ff" letter-spacing="2">SYSTEMS / IOT</text>
+</g>
+<g transform="translate(60 58)">
+ <rect x="0" y="0" width="7" height="164" rx="3.5" fill="url(#line)"/>
+ <text x="34" y="51" font-family="Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="1" fill="#f8fafc">AHMED ADEL</text>
+ <text x="36" y="91" font-family="Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="3" fill="#67e8f9">AHMED4K4  /  ENGINEERING &amp; SOFTWARE</text>
+ <text x="36" y="135" font-family="Arial,sans-serif" font-size="20" fill="#d6e7f1">Full-Stack Web Developer</text>
+ <text x="36" y="165" font-family="Arial,sans-serif" font-size="20" fill="#d6e7f1">Embedded Systems &amp; IoT</text>
+ <path d="M36 187H600" stroke="#22d3ee" stroke-opacity=".4" stroke-width="2"/>
+ <text x="36" y="216" font-family="Arial,sans-serif" font-size="14" letter-spacing="2" fill="#fbbf24">WEB  •  FIRMWARE  •  HARDWARE  •  CONNECTED SYSTEMS</text>
+</g>
+<path d="M20 270H1180" stroke="url(#line)" stroke-width="2" opacity=".7"/>
+</svg>

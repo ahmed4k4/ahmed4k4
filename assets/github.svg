@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" role="img" aria-labelledby="t d">
+<title id="t">GitHub statistics will refresh automatically</title><desc id="d">The profile workflow fetches real public repository and language statistics after the profile repository is published.</desc>
+<rect width="1000" height="160" rx="18" fill="#0b1d2b" stroke="#24465b"/>
+<circle cx="72" cy="80" r="24" fill="none" stroke="#22d3ee" stroke-width="3"/><path d="M72 60V82L88 92" stroke="#22d3ee" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="122" y="69" fill="#e6f5fb" font-family="Arial,sans-serif" font-size="24" font-weight="700">Live GitHub statistics</text>
+<text x="122" y="103" fill="#a8c3d4" font-family="Arial,sans-serif" font-size="16">Automatically generated from the ahmed4k4 public profile by GitHub Actions after publishing.</text>
+<path d="M900 50H950M925 25V75" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+</svg>
