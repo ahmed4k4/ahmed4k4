@@ -1,40 +1,37 @@
-name: Refresh profile assets
+name: Refresh profile statistics
 
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4 * * *'
   push:
     branches: [main]
     paths:
-      - "scripts/**"
-      - ".github/workflows/update-stats.yml"
-  schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
+      - 'scripts/generate_stats.py'
 
 permissions:
   contents: write
 
-concurrency:
-  group: profile-assets
-  cancel-in-progress: true
-
 jobs:
-  refresh:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-      - name: Validate banner
-        run: python scripts/build_assets.py
-      - name: Refresh public GitHub statistics
+          python-version: '3.12'
+      - name: Generate live profile metrics
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_stats.py "${{ github.repository_owner }}"
-      - name: Commit generated assets
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_stats.py
+      - name: Commit updated SVG metrics
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/
-          git diff --staged --quiet || git commit -m "chore: refresh profile assets"
-          git push
+          if [[ -n "$(git status --porcelain assets/github.svg assets/sm/github.svg)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/github.svg assets/sm/github.svg
+            git commit -m "chore: refresh GitHub profile metrics"
+            git push
+          fi

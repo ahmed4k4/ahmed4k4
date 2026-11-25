@@ -1,33 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-<title id="title">Ahmed Adel - Full-Stack Web and Embedded Systems Developer</title>
-<desc id="desc">A custom dark technical blueprint banner combining web code, circuit traces and a microcontroller motif.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490" role="img" aria-labelledby="title desc">
+<title id="title">Ahmed4k4 — Web Engineering, Embedded Systems and IoT</title><desc id="desc">Ahmed Adel Fekry Abdelkader building full-stack web platforms, embedded firmware, IoT devices and robotics prototypes.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071827"/><stop offset="1" stop-color="#102c43"/></linearGradient>
- <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
- <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#7dd3fc" stroke-opacity=".075" stroke-width="1"/></pattern>
- <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061421"/><stop offset=".58" stop-color="#0a1b2e"/><stop offset="1" stop-color="#11152b"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#34d8f4"/><stop offset="1" stop-color="#6aa8ff"/></linearGradient>
+ <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffc36b"/><stop offset="1" stop-color="#ff8b4d"/></linearGradient>
+ <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9b8cff"/><stop offset="1" stop-color="#45cfff"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#1c99c7" stop-opacity=".26"/><stop offset="1" stop-color="#1c99c7" stop-opacity="0"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#4ea3c9" stroke-opacity=".10" stroke-width="1"/></pattern>
+ <style>
+ @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+ @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+ @keyframes sweep{0%{transform:translateX(-140%)}100%{transform:translateX(520%)}}
+ @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(9px,-8px)}}
+ @keyframes trace{to{stroke-dashoffset:-80}}
+ @keyframes blink{50%{opacity:0}}
+ .rise{animation:rise .8s cubic-bezier(.2,.8,.2,1) both}.d1{animation-delay:.12s}.d2{animation-delay:.24s}.d3{animation-delay:.36s}.d4{animation-delay:.48s}
+ .float{animation:drift 7s ease-in-out infinite}.pulse{animation:pulse 2.4s ease-in-out infinite}.flow{stroke-dasharray:8 10;animation:trace 6s linear infinite}.scan{animation:sweep 6.5s ease-in-out infinite}
+ @media(prefers-reduced-motion:reduce){.rise,.float,.pulse,.flow,.scan{animation:none!important}}
+ </style>
 </defs>
-<rect width="1200" height="300" rx="24" fill="url(#bg)"/><rect width="1200" height="300" rx="24" fill="url(#grid)"/>
-<g opacity=".55" fill="none" stroke="#22d3ee" stroke-width="2">
- <path d="M760 40H900V80H1020M800 260H900V220H1080M1080 60V110H1160M760 190H840V145H940"/>
- <path d="M885 35V15H1040M1030 280V248H1140" stroke="#f59e0b"/>
- <circle cx="900" cy="80" r="5" fill="#22d3ee"/><circle cx="900" cy="220" r="5" fill="#22d3ee"/><circle cx="840" cy="145" r="5" fill="#f59e0b"/>
+<rect width="1200" height="490" rx="28" fill="url(#bg)"/><rect width="1200" height="490" rx="28" fill="url(#grid)"/>
+<ellipse cx="1020" cy="-15" rx="420" ry="350" fill="url(#halo)"/><ellipse cx="80" cy="460" rx="300" ry="230" fill="#0daac4" opacity=".07"/>
+<g fill="none" stroke="#43b9dd" stroke-opacity=".26" stroke-width="1.5"><path class="flow" d="M0 335H45V315H78V335H115V370H190"/><path class="flow" d="M530 0V40H570V62H620"/><path class="flow" d="M1135 490V455H1100V435H1060"/></g>
+<g fill="#49d7f3" opacity=".75"><circle class="pulse" cx="45" cy="335" r="3"/><circle class="pulse" cx="190" cy="370" r="3"/><circle class="pulse" cx="620" cy="62" r="3"/></g>
+<g class="rise">
+ <rect x="64" y="46" width="265" height="31" rx="15.5" fill="#102c40" stroke="#2d718e"/>
+ <circle cx="83" cy="61.5" r="4" fill="#55e1b0"/><text x="97" y="66" fill="#a9c5d8" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="1.4">BUILDING ACROSS SOFTWARE + HARDWARE</text>
+ <text x="62" y="158" fill="#f3f8fc" font-family="Segoe UI,Arial,sans-serif" font-size="66" font-weight="750" letter-spacing="-2">Ahmed Adel</text>
+ <text x="67" y="201" fill="#a8bfd1" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="500">Fekry Abdelkader</text>
+ <text x="66" y="252" fill="url(#cyan)" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700">Full-Stack Web Developer</text>
+ <text x="66" y="284" fill="#c4d4e2" font-family="Segoe UI,Arial,sans-serif" font-size="19">Embedded Systems · IoT · Robotics</text>
+ <text x="66" y="328" fill="#829daf" font-family="Segoe UI,Arial,sans-serif" font-size="15">Computer Engineering Student  /  Cairo, Egypt</text>
 </g>
-<g transform="translate(900 68)" filter="url(#glow)">
- <rect x="0" y="0" width="180" height="164" rx="18" fill="#0b2133" stroke="url(#line)" stroke-width="3"/>
- <rect x="31" y="28" width="118" height="106" rx="10" fill="#102e42" stroke="#22d3ee" stroke-opacity=".8"/>
- <path d="M45 59H135M45 79H112M45 99H124" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" opacity=".85"/>
- <g stroke="#22d3ee" stroke-width="3"><path d="M-14 22H0M-14 48H0M-14 74H0M-14 100H0M-14 126H0M180 22H194M180 48H194M180 74H194M180 100H194M180 126H194"/></g>
- <text x="90" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#c9f5ff" letter-spacing="2">SYSTEMS / IOT</text>
+<g class="rise d2">
+ <rect x="65" y="365" width="166" height="39" rx="7" fill="#0d293b" stroke="#257e9c"/><circle cx="85" cy="384.5" r="4" fill="#36d8f4"/><text x="99" y="389" fill="#e5f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">WEB ENGINEERING</text>
+ <rect x="242" y="365" width="184" height="39" rx="7" fill="#17273b" stroke="#7964c4"/><circle cx="262" cy="384.5" r="4" fill="#a999ff"/><text x="276" y="389" fill="#ece9ff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">EMBEDDED FIRMWARE</text>
+ <rect x="437" y="365" width="164" height="39" rx="7" fill="#29251e" stroke="#ad7835"/><circle cx="457" cy="384.5" r="4" fill="#ffb45d"/><text x="471" y="389" fill="#fff0d8" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">IoT &amp; ROBOTICS</text>
+ <text x="66" y="450" fill="#6f8fa7" font-family="Consolas,monospace" font-size="13" letter-spacing="1.3">DESIGN  /  CODE  /  CONNECT  /  BUILD</text>
 </g>
-<g transform="translate(60 58)">
- <rect x="0" y="0" width="7" height="164" rx="3.5" fill="url(#line)"/>
- <text x="34" y="51" font-family="Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="1" fill="#f8fafc">AHMED ADEL</text>
- <text x="36" y="91" font-family="Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="3" fill="#67e8f9">AHMED4K4  /  ENGINEERING &amp; SOFTWARE</text>
- <text x="36" y="135" font-family="Arial,sans-serif" font-size="20" fill="#d6e7f1">Full-Stack Web Developer</text>
- <text x="36" y="165" font-family="Arial,sans-serif" font-size="20" fill="#d6e7f1">Embedded Systems &amp; IoT</text>
- <path d="M36 187H600" stroke="#22d3ee" stroke-opacity=".4" stroke-width="2"/>
- <text x="36" y="216" font-family="Arial,sans-serif" font-size="14" letter-spacing="2" fill="#fbbf24">WEB  •  FIRMWARE  •  HARDWARE  •  CONNECTED SYSTEMS</text>
+<!-- Web dashboard window -->
+<g class="float">
+ <rect x="660" y="64" width="470" height="246" rx="18" fill="#07121d" stroke="#315d78" stroke-width="1.4"/>
+ <path d="M660 106H1130" stroke="#29485e"/><circle cx="684" cy="85" r="5" fill="#fb7185"/><circle cx="701" cy="85" r="5" fill="#fbbf24"/><circle cx="718" cy="85" r="5" fill="#34d399"/>
+ <text x="746" y="90" fill="#8aa6ba" font-family="Consolas,monospace" font-size="12">archai-dashboard.tsx</text>
+ <rect x="682" y="125" width="202" height="162" rx="11" fill="#0d2233" stroke="#27506a"/>
+ <text x="700" y="151" fill="#e7f3fb" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Archai Hub</text>
+ <text x="700" y="171" fill="#82a1b6" font-family="Segoe UI,Arial,sans-serif" font-size="11">PROJECT WORKSPACE</text>
+ <rect x="700" y="188" width="166" height="25" rx="5" fill="#15364a"/><rect x="700" y="221" width="118" height="7" rx="3.5" fill="#32647c"/><rect x="700" y="238" width="148" height="7" rx="3.5" fill="#24475f"/><rect x="700" y="255" width="92" height="7" rx="3.5" fill="#24475f"/>
+ <rect x="901" y="125" width="207" height="74" rx="10" fill="#111f32" stroke="#3a4773"/>
+ <text x="918" y="150" fill="#e8e9ff" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">Secure LMS</text><text x="918" y="170" fill="#91a5c5" font-family="Segoe UI,Arial,sans-serif" font-size="11">COURSES · LESSONS · PRIVATE MEDIA</text>
+ <rect x="901" y="211" width="207" height="76" rx="10" fill="#102838" stroke="#27657c"/>
+ <text x="918" y="237" fill="#d8f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">POS &amp; Customer Systems</text><text x="918" y="257" fill="#89aebe" font-family="Segoe UI,Arial,sans-serif" font-size="11">FIREBASE · BRANCHES · ESC/POS</text><path d="M918 272H1086" stroke="#36c9ef" stroke-width="2" stroke-linecap="round"/>
 </g>
-<path d="M20 270H1180" stroke="url(#line)" stroke-width="2" opacity=".7"/>
+<!-- Embedded device / PCB panel -->
+<g class="rise d3">
+ <rect x="660" y="333" width="470" height="110" rx="15" fill="#0a1c2a" stroke="#31536b"/>
+ <text x="682" y="360" fill="#ffbd72" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">EMBEDDED LAB / IoT TELEMETRY</text>
+ <g transform="translate(683 375)"><rect width="74" height="49" rx="7" fill="#123347" stroke="#2ba2be"/><rect x="20" y="9" width="34" height="31" rx="4" fill="#071521" stroke="#5c9fb4"/><path d="M7 5V-3M18 5V-3M30 5V-3M42 5V-3M54 5V-3M66 5V-3M7 49V57M18 49V57M30 49V57M42 49V57M54 49V57M66 49V57" stroke="#56c9df" stroke-width="2"/></g>
+ <g transform="translate(788 378)"><circle cx="18" cy="18" r="15" fill="#102d40" stroke="#43d5f3"/><path d="M18 5V31M5 18H31M10 10L26 26M26 10L10 26" stroke="#43d5f3" opacity=".8"/><text x="43" y="15" fill="#e2f1f8" font-family="Consolas,monospace" font-size="13">ESP32 / AVR</text><text x="43" y="33" fill="#799bb0" font-family="Consolas,monospace" font-size="10">SENSORS · PWM · UART · I2C</text></g>
+ <g transform="translate(1003 376)"><path d="M0 28H26L39 7L52 36L65 18H105" fill="none" stroke="#55d5aa" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="39" cy="7" r="3.5" fill="#ffb45d" class="pulse"/><text x="0" y="56" fill="#83a9ba" font-family="Consolas,monospace" font-size="10">LIVE SIGNAL</text></g>
+</g>
+<rect class="scan" x="0" y="0" width="220" height="3" fill="url(#cyan)" opacity=".65"/>
+<text x="1130" y="471" text-anchor="end" fill="#5d7f97" font-family="Consolas,monospace" font-size="11">AHMED4K4  •  BUILD / INNOVATE / AUTOMATE</text>
 </svg>

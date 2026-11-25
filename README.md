@@ -1,118 +1,123 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Ahmed Adel - Full-Stack Web Developer and Embedded Systems & IoT Developer" width="100%" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="assets/sm/banner.svg" />
+    <img src="assets/banner.svg" alt="Ahmed Adel — full-stack web, embedded systems, IoT and robotics developer" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://ahmed-4k4.web.app"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0b7285?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
-  <a href="https://github.com/ahmed4k4"><img src="https://img.shields.io/badge/GitHub-ahmed4k4-172b3a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-  <a href="mailto:Ahmad4k4@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-b45309?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/ahmed-adel-4k4"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
+  <a href="https://ahmed-4k4.web.app"><img src="assets/btn-portfolio.svg" alt="Open portfolio" height="40" /></a>
+  <a href="mailto:Ahmad4k4@gmail.com"><img src="assets/btn-email.svg" alt="Send an email" height="40" /></a>
+  <a href="https://www.linkedin.com/in/ahmed-adel-4k4"><img src="assets/btn-linkedin.svg" alt="Open LinkedIn" height="40" /></a>
+  <a href="https://github.com/ahmed4k4"><img src="assets/btn-github.svg" alt="Open GitHub profile" height="40" /></a>
 </p>
 
-<h2 align="center">Ahmed Adel Fekry Abdelkader</h2>
-<p align="center"><strong>Computer Engineering Student · Full-Stack Web Developer · Embedded Systems &amp; IoT</strong></p>
-
-## About
-
-I'm a Computer Engineering student at **Modern Academy for Engineering, Cairo**, building software and hardware systems that work together. My work is split between **full-stack web applications** and **embedded systems / IoT**: from data-driven business platforms and bilingual interfaces to microcontroller firmware, sensor integration and practical prototypes.
-
-I focus on clean application structure, useful workflows, secure data access, dependable device communication and connecting software with real-world hardware. I'm also the **Founder & Technical Lead at Archai Solutions**.
-
-## What I work on
-
-| Full-Stack Web | Embedded Systems & IoT | Hardware & Integration |
-|---|---|---|
-| Business dashboards, SaaS platforms, e-commerce, admin panels, authentication, REST APIs and bilingual Arabic/English interfaces. | C/C++ firmware, AVR / ATmega32, Arduino, ESP32, ESP8266, sensors, actuators, automation and connected devices. | KiCad PCB design, circuit integration, UART / SPI / I2C, Bluetooth, Wi-Fi, 3D mechanical concepts and local device-to-app workflows. |
-
-## Selected work
-
-### Web platforms and software
-
-- **Archai Hub** — bilingual project and team management platform with role-based access, tasks, progress tracking, file workflows and PostgreSQL Row Level Security. Built with Next.js, React, TypeScript and Supabase.
-- **Archai Corporate Showcase** — responsive Arabic/English company website with RTL support, project storytelling and backend-ready content architecture.
-- **Secure LMS Marketplace** — course platform architecture with Supabase authentication, role separation, database policies and private media storage using Cloudflare R2. In active development.
-- **Arabic POS & Local Print Agent** — Arabic RTL point-of-sale workflow integrated with a Windows print agent for ESC/POS thermal printing.
-- **NFC & QR Customer Capture** — configurable customer intake for multiple brands and branches, with stable QR/NFC links, branch-level records, filters and spreadsheet export.
-- **Hazo Stor E-Commerce & Smart Robotics** — responsive e-commerce work alongside firmware for autonomous robotics and Bluetooth/Wi-Fi smart-home devices.
-- **AI PC Build Recommender** — an evolving JavaScript tool for Egyptian-pound budgets, component compatibility and AI-assisted build suggestions.
-
-### Embedded and hardware projects
-
-- **Arduino & ESP32 Robotics** — line-following and obstacle-avoidance vehicles, Bluetooth-controlled car, smart-home automation and an ESP32 robot arm.
-- **Piezoelectric Energy-Harvesting Tile** — prototype concept using an array of 30 piezoelectric crystals and power-conditioning circuits.
-- **ATmega32 Development Board & ROV Assembly** — custom AVR development-board work with PCB design and a remotely operated submarine assembly.
-
-### Public repositories
-
-| Repository | Focus |
-|---|---|
-| [Quiz / Exam System](https://github.com/ahmed4k4/quiz) | PHP-based quiz and exam workflow with question and result handling. |
-| [Quran Website](https://github.com/ahmed4k4/quran) | Web project for Quran reading and audio content. |
-| [AI API](https://github.com/ahmed4k4/ai-api) | Python API and machine-learning experimentation with data files. |
-| [Personal Portfolio](https://github.com/ahmed4k4/CV-Ahmed-Adel) | Personal website source and profile presentation. |
-| [Portfolio Website](https://github.com/ahmed4k4/CV-Ahmed-Adel) | Personal website source and profile presentation. |
-
-Some client-facing and in-progress systems are private, so their source code is not linked publicly. The portfolio contains the detailed project summaries that can be shared.
-
-## Technology stack
-
-**Languages**  
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-
-**Web and backend**  
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111827)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=111827)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-**Embedded, IoT and hardware**  
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
-![AVR](https://img.shields.io/badge/AVR%20%2F%20Firmware-1F6B75?style=flat-square)
-![Fusion 360](https://img.shields.io/badge/Fusion%20360-0696D7?style=flat-square&logo=autodesk&logoColor=white)
-
-**Protocols and tools**  
-`UART` · `SPI` · `I2C` · `Bluetooth` · `Wi-Fi` · `Git` · `GitHub` · `VS Code` · `Arduino IDE` · `Vercel`
-
-## Experience
-
-- **Founder & Technical Lead — Archai Solutions** · Jul 2026 – Present  
-  Technical direction and delivery across full-stack applications, embedded prototypes, PCB-oriented work and IoT concepts.
-- **Freelance Web & Embedded Systems Developer** · 2024 – Present  
-  Client websites, e-commerce workflows, management dashboards, microcontroller prototypes and hardware/software integration.
-
-## Education and training
-
-- **B.Sc. in Computer Engineering** — Modern Academy for Engineering, Cairo · 2022 – Present · Expected graduation: **2027**.
-- **Integrated Embedded Systems Training** — Information Technology Institute (ITI): AVR, C programming, peripherals and driver fundamentals.
-- **Artificial Intelligence Training** — AMIT Learning: machine-learning fundamentals and Python-based data work.
-
-## GitHub activity
-
-<p align="center">
-  <img src="assets/github.svg" alt="GitHub statistics image, refreshed automatically by GitHub Actions after publishing this profile repository" width="100%" />
-</p>
-
-The profile workflow refreshes repository, commit, star, follower and language statistics from the public GitHub API. It runs daily after the profile repository is published.
-
-## Contact
-
-- **Email:** [Ahmad4k4@gmail.com](mailto:Ahmad4k4@gmail.com)
-- **Portfolio:** [ahmed-4k4.web.app](https://ahmed-4k4.web.app)
-- **GitHub:** [github.com/ahmed4k4](https://github.com/ahmed4k4)
-- **LinkedIn:** [linkedin.com/in/ahmed-adel-4k4](https://www.linkedin.com/in/ahmed-adel-4k4)
-- **Location:** Cairo, Egypt
+<div align="center">
+  <img src="assets/profile.webp" width="132" alt="Ahmed Adel profile photo" />
+  <h2>Ahmed Adel Fekry Abdelkader · Ahmed4k4</h2>
+  <b>Computer Engineering Student · Full-Stack Web Developer · Embedded Systems &amp; IoT</b>
+  <br />Modern Academy for Engineering · Cairo, Egypt · Expected graduation 2027
+</div>
 
 ---
 
-<p align="center"><sub>Designed and maintained by Ahmed4k4 · Built around software, firmware and real-world engineering.</sub></p>
+## About
+
+I build practical products across software and hardware: bilingual web platforms, business-management systems, embedded firmware, connected devices and robotics prototypes. My work spans product architecture, responsive interfaces, authentication and data access, database design, microcontroller programming, sensors, motor control and software–hardware integration.
+
+**Current focus:** product-grade Next.js platforms and secure data workflows; C/C++ firmware, Arduino/AVR/ESP32, sensor integration, motor control, connected-device automation and practical software-to-hardware integration.
+
+<details dir="rtl">
+<summary>نبذة بالعربي</summary>
+
+أنا أحمد عادل فكري عبدالقادر، طالب هندسة حاسبات ومطور ويب وأنظمة مدمجة. بشتغل على منصات ويب ثنائية اللغة وأنظمة إدارة الأعمال، وبطور نماذج Embedded وIoT باستخدام C/C++ وArduino وESP32، بالإضافة إلى مشروعات الروبوتات والتحكم وتصميم الدوائر.
+
+**مجالات التركيز:** Next.js وReact، Firebase وSupabase، Arduino وESP32، إنترنت الأشياء، الروبوتات وتصميم PCB.
+</details>
+
+<br />
+
+## Selected work
+
+### Web platforms & business systems
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-archai-hub.svg" /><img src="assets/work-archai-hub.svg" alt="Archai Hub — bilingual project and team management workspace" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-lms.svg" /><img src="assets/work-lms.svg" alt="Secure LMS Marketplace — courses, lessons, roles and private video storage" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-pos.svg" /><img src="assets/work-pos.svg" alt="Arabic POS and Windows local thermal print agent" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-nfc.svg" /><img src="assets/work-nfc.svg" alt="NFC and QR customer capture for multiple brands and branches" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-attendance.svg" /><img src="assets/work-attendance.svg" alt="Attendance and workforce-management dashboard" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-pc-builder.svg" /><img src="assets/work-pc-builder.svg" alt="AI-assisted PC build recommender with Egyptian-pound budgets and compatibility checks" width="100%" /></picture></p>
+
+### Embedded systems, IoT & robotics
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-smart-home.svg" /><img src="assets/work-smart-home.svg" alt="ESP32 smart-home system with manual, voice and intelligent automation modes" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-fire-fighting.svg" /><img src="assets/work-fire-fighting.svg" alt="Fire-fighting robot car prototype with flame sensing and an extinguishing actuator" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-robotics.svg" /><img src="assets/work-robotics.svg" alt="Interactive robotics prototypes with voice, gesture, PID, sensors and servo control" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-drone.svg" /><img src="assets/work-drone.svg" alt="UAV and drone research track — flight controller, IMU stabilization and telemetry" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-esp32-voice.svg" /><img src="assets/work-esp32-voice.svg" alt="ESP32-S3 voice terminal prototype exploration with microphone, speaker, Wi-Fi and online AI workflow" width="100%" /></picture></p>
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/work-assistive.svg" /><img src="assets/work-assistive.svg" alt="Assistive vision and one-ear audio guidance concept using camera, microphone and laptop-assisted AI" width="100%" /></picture></p>
+
+**Other projects:** PID line follower, obstacle-avoidance car, Bluetooth-controlled robot car, programmable robotic arm, ATmega32 development board, ROV manipulator assembly, Hazo Stor e-commerce, online exams and quizzes, real-time chat, CV builder, Quran website, restaurant website and Python machine-learning API.
+
+> Some business platforms and client-oriented implementations are private. The UAV/drone item, ESP32-S3 voice terminal and assistive vision/audio system are research or prototype-exploration tracks, not claims of completed production devices. Smart-home voice control is described as assistant-style interaction; it is not presented as an official Alexa integration.
+
+## Engineering toolkit
+
+- **Web engineering:** JavaScript · TypeScript · React · Next.js App Router · HTML5 · CSS3 · Tailwind CSS · Node.js · next-intl · GSAP.
+- **Backend and data:** Firebase · Cloud Firestore · Firebase Authentication · Supabase · PostgreSQL · Supabase Auth · Row Level Security · MySQL · REST APIs · Cloudflare R2.
+- **Embedded and IoT:** C · C++ · Arduino · AVR / ATmega32 · ESP32 / ESP32-S3 · ESP8266 · sensors · actuators · MPU6050 · BTS7960 · servo/PWM · IR and ultrasonic sensing · Wi-Fi · Bluetooth.
+- **Hardware and integration:** KiCad · PCB schematics/layout · Fusion 360 · UART · SPI · I2C · ESC/POS thermal printing · local Windows print-agent integration · signed media URLs and HLS workflows.
+
+## Technology stack
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/stack.svg" /><img src="assets/stack.svg" alt="Web, backend, embedded, IoT, hardware and engineering tool stack" width="100%" /></picture></p>
+
+**Hardware &amp; protocols:** KiCad · PCB schematic/layout · UART · SPI · I2C · PWM · Wi-Fi · Bluetooth · Sensors · Actuators · Motor drivers.
+
+## Experience & education
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/experience.svg" /><img src="assets/experience.svg" alt="Founder and Technical Lead at Archai Solutions, freelance development, Computer Engineering degree and training" width="100%" /></picture></p>
+
+- **Founder &amp; Technical Lead — Archai Solutions** · Jul 2026–Present.
+- **Freelance Web &amp; Embedded Systems Developer** · 2024–Present.
+- **B.Sc. Computer Engineering — Modern Academy for Engineering, Cairo** · 2022–Present; expected graduation 2027.
+- **DEPI — Digital Egypt Pioneers Initiative:** Front-End Development learning track.
+- **ITI:** Embedded Systems training — AVR, C, timers, ADC, UART, SPI, I2C and driver fundamentals.
+- **AMIT Learning:** Artificial Intelligence training — machine-learning fundamentals and Python data libraries.
+
+These are learning and training tracks; they are not presented as certifications unless a certificate is separately issued.
+
+## GitHub activity
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/github.svg" /><img src="assets/github.svg" alt="Live public GitHub repositories, followers, stars, forks and primary repository languages" width="100%" /></picture></p>
+
+<sub>Repository metrics are generated from the GitHub public API by the included GitHub Actions workflow. Language breakdown counts each repository's primary language, not source-code bytes.</sub>
+
+## Get in touch
+
+<p align="center"><picture><source media="(max-width: 640px)" srcset="assets/sm/contact.svg" /><img src="assets/contact.svg" alt="Contact Ahmed4k4 for web platforms, embedded systems, IoT and robotics" width="100%" /></picture></p>
+
+- **Email:** [Ahmad4k4@gmail.com](mailto:Ahmad4k4@gmail.com)
+- **Portfolio:** [ahmed-4k4.web.app](https://ahmed-4k4.web.app)
+- **GitHub:** [@ahmed4k4](https://github.com/ahmed4k4)
+- **LinkedIn:** [Ahmed Adel](https://www.linkedin.com/in/ahmed-adel-4k4)
+- **Location:** Cairo, Egypt
+
+<div align="center">
+  <b>Build · Innovate · Automate</b><br />
+  <sub>Designed and maintained by Ahmed4k4</sub>
+</div>
+
+---
+
+<sub>Typography in the self-contained SVG artwork uses embedded font subsets. The corresponding SIL Open Font License notice is included at [`assets/FONT-LICENSE-OFL.txt`](assets/FONT-LICENSE-OFL.txt).</sub>
