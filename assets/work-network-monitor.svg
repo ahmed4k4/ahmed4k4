@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="NetworkMonitor — Network Control and Traffic Intelligence Center">
+<title>NetworkMonitor — Network Control &amp; Traffic Intelligence Center</title>
+<desc>Development-stage network monitoring project with packet and flow collection, connected device discovery, API and WebSocket services, and a real-time analytics dashboard. Some data-attribution and aggregation issues remain under audit.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1428"/><stop offset="1" stop-color="#101b32"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#142744"/><stop offset="1" stop-color="#0b172b"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#22d3ee" stop-opacity=".22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+ <clipPath id="clip"><rect width="1200" height="360" rx="22"/></clipPath>
+</defs>
+<style>
+.txt{font-family:Arial,Helvetica,sans-serif;fill:#e6f1ff}.muted{font-family:Arial,Helvetica,sans-serif;fill:#8fa7c5}.small{font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#8fa7c5}.label{font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:1.5px;fill:#7dd3fc}.pulse{animation:pulse 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.trace{stroke-dasharray:7 12;animation:trace 8s linear infinite}.bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow 3.2s ease-in-out infinite alternate}.bar:nth-of-type(2n){animation-delay:-1.4s}.float{animation:float 5s ease-in-out infinite}.scan{animation:scan 5s ease-in-out infinite}.shine{animation:shine 5.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.45;transform:scale(.88)}50%{opacity:1;transform:scale(1.16)}}
+@keyframes trace{to{stroke-dashoffset:-160}}
+@keyframes grow{0%{transform:scaleY(.45);opacity:.55}100%{transform:scaleY(1);opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes scan{0%,100%{transform:translateY(0);opacity:.1}50%{transform:translateY(78px);opacity:.7}}
+@keyframes shine{0%,20%{transform:translateX(-260px);opacity:0}40%,70%{opacity:.7}100%{transform:translateX(980px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.pulse,.trace,.bar,.float,.scan,.shine{animation:none!important}}
+</style>
+<g clip-path="url(#clip)">
+ <rect width="1200" height="360" fill="url(#bg)"/>
+ <circle cx="80" cy="40" r="250" fill="url(#glow)"/>
+ <circle cx="1120" cy="350" r="280" fill="url(#glow)" opacity=".55"/>
+ <g opacity=".13" stroke="#5c7da6" stroke-width="1"><path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200M0 280H1200M0 320H1200"/><path d="M40 0V360M80 0V360M120 0V360M160 0V360M200 0V360M240 0V360M280 0V360M320 0V360"/></g>
+ <g transform="translate(48 50)">
+  <rect width="42" height="42" rx="12" fill="#0d2d48" stroke="#22d3ee" stroke-opacity=".7"/>
+  <path d="M8 22h6l4-8 7 17 6-12h4" fill="none" stroke="#67e8f9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="10" r="3" fill="#a78bfa" class="pulse"/>
+  <text x="58" y="18" class="txt" font-size="27" font-weight="700">Network<tspan fill="#67e8f9">Monitor</tspan></text>
+  <text x="58" y="40" class="muted" font-size="12" letter-spacing="2">NETWORK CONTROL &amp; TRAFFIC INTELLIGENCE</text>
+ </g>
+ <text x="50" y="146" class="txt" font-size="27" font-weight="700">See the network.</text>
+ <text x="50" y="178" class="txt" font-size="27" font-weight="700" fill="#67e8f9">Understand every flow.</text>
+ <text x="50" y="207" class="muted" font-size="13">Python packet processing  ·  FastAPI  ·  WebSockets</text>
+ <text x="50" y="228" class="muted" font-size="13">Next.js dashboard  ·  PostgreSQL  ·  Device policies</text>
+ <g transform="translate(50 260)">
+  <rect width="228" height="31" rx="15.5" fill="#3b2d16" stroke="#fbbf24" stroke-opacity=".75"/>
+  <circle cx="16" cy="15.5" r="4" fill="#fbbf24" class="pulse"/>
+  <text x="29" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#fde68a">IN DEVELOPMENT · ACTIVE AUDIT</text>
+ </g>
+ <g transform="translate(352 36)">
+  <path d="M0 100H55L97 49H145L181 96H228" fill="none" stroke="url(#edge)" stroke-width="2" opacity=".65" class="trace"/>
+  <circle cx="55" cy="100" r="5" fill="#22d3ee" class="pulse"/><circle cx="97" cy="49" r="5" fill="#60a5fa" class="pulse"/><circle cx="145" cy="49" r="5" fill="#a78bfa" class="pulse"/><circle cx="181" cy="96" r="5" fill="#22d3ee" class="pulse"/>
+  <g class="float"><rect x="30" y="127" width="212" height="160" rx="15" fill="url(#panel)" stroke="#284b6d"/>
+   <text x="49" y="153" class="label">LIVE DEVICE MAP</text>
+   <g stroke="#275070" stroke-width="1.4" fill="none"><path d="M76 204L128 185L180 209L210 178M128 185L117 245M180 209L168 255M76 204L117 245"/></g>
+   <g><circle cx="76" cy="204" r="12" fill="#10394d" stroke="#22d3ee"/><path d="M69 204h14M76 197v14" stroke="#67e8f9" stroke-width="1.5"/><circle cx="128" cy="185" r="12" fill="#1e335a" stroke="#60a5fa"/><path d="M123 185h10m-5-5v10" stroke="#93c5fd" stroke-width="1.5"/><circle cx="180" cy="209" r="12" fill="#2d2258" stroke="#a78bfa"/><circle cx="210" cy="178" r="5" fill="#34d399" class="pulse"/><circle cx="117" cy="245" r="5" fill="#34d399" class="pulse"/><circle cx="168" cy="255" r="5" fill="#fbbf24" class="pulse"/></g>
+   <text x="50" y="274" class="small">Discovery · Identity · Status</text>
+  </g>
+ </g>
+ <g transform="translate(624 40)">
+  <rect width="526" height="282" rx="17" fill="url(#panel)" stroke="#2d5278" stroke-width="1.2"/>
+  <text x="22" y="29" class="label">NETWORK OPERATIONS DASHBOARD</text>
+  <circle cx="490" cy="25" r="4" fill="#34d399" class="pulse"/>
+  <g transform="translate(20 48)">
+   <g><rect width="146" height="57" rx="9" fill="#10243d" stroke="#284866"/><text x="13" y="21" class="small">DISCOVERED DEVICES</text><text x="13" y="45" class="txt" font-size="22" font-weight="700">DEVICE</text></g>
+   <g transform="translate(157 0)"><rect width="146" height="57" rx="9" fill="#10243d" stroke="#284866"/><text x="13" y="21" class="small">ACTIVE FLOWS</text><text x="13" y="45" class="txt" font-size="22" font-weight="700">FLOWS</text></g>
+   <g transform="translate(314 0)"><rect width="146" height="57" rx="9" fill="#10243d" stroke="#284866"/><text x="13" y="21" class="small">TRAFFIC RATE</text><text x="13" y="45" class="txt" font-size="22" font-weight="700">LIVE</text></g>
+  </g>
+  <g transform="translate(20 123)">
+   <rect width="290" height="135" rx="10" fill="#0d1d31" stroke="#284866"/>
+   <text x="15" y="22" class="small">THROUGHPUT · SAMPLE VIEW</text>
+   <path d="M16 107H274M16 78H274M16 49H274" stroke="#28415b" stroke-width="1" stroke-dasharray="3 5"/>
+   <g fill="#22d3ee" opacity=".8">
+    <rect class="bar" x="30" y="67" width="13" height="40" rx="3"/><rect class="bar" x="61" y="44" width="13" height="63" rx="3"/><rect class="bar" x="92" y="57" width="13" height="50" rx="3"/><rect class="bar" x="123" y="32" width="13" height="75" rx="3"/><rect class="bar" x="154" y="50" width="13" height="57" rx="3"/><rect class="bar" x="185" y="25" width="13" height="82" rx="3"/><rect class="bar" x="216" y="40" width="13" height="67" rx="3"/><rect class="bar" x="247" y="54" width="13" height="53" rx="3"/>
+   </g>
+  </g>
+  <g transform="translate(323 123)">
+   <rect width="183" height="135" rx="10" fill="#0d1d31" stroke="#284866"/>
+   <text x="13" y="22" class="small">DEVICE POLICY</text>
+   <g font-family="Arial,sans-serif" font-size="10" fill="#c4d8ee"><circle cx="17" cy="47" r="4" fill="#34d399"/><text x="29" y="51">Speed limits</text><circle cx="17" cy="72" r="4" fill="#60a5fa"/><text x="29" y="76">Usage quotas</text><circle cx="17" cy="97" r="4" fill="#a78bfa"/><text x="29" y="101">Block / unblock</text></g>
+   <rect x="13" y="112" width="157" height="5" rx="2.5" fill="#1d3652"/><rect x="13" y="112" width="92" height="5" rx="2.5" fill="url(#edge)"/>
+  </g>
+  <rect x="0" y="0" width="10" height="282" rx="5" fill="url(#edge)" opacity=".8" class="shine"/>
+ </g>
+ <text x="50" y="335" class="small">Ahmed4k4  /  SOFTWARE ENGINEERING  ×  NETWORK SYSTEMS</text>
+ <text x="1148" y="335" text-anchor="end" class="small">PROJECT IN DEVELOPMENT</text>
+ <rect x=".5" y=".5" width="1199" height="359" rx="22" fill="none" stroke="#2b4666"/>
+</g></svg>
